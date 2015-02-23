@@ -1,0 +1,46 @@
+body {
+	width:100%;
+}
+
+.todolist {
+	width:100%;
+	height:auto;
+}
+
+.todoitem {
+	border-bottom:1px solid #FFFFFF;
+}
+
+h2 {
+	font-size:10px;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:5px;
+	color:#FFFFFF;
+}
+
+h3 {
+	font-size:11px;
+	text-align:center;
+	padding-bottom:35px;
+	color:#FFFFFF;
+}
+
+p {
+	font-size:32px;
+	text-align:center;
+	padding-bottom:5px;
+	color:#FFFFFF;
+}
+
+.rood {
+	background-color:#e74c3c;
+}
+
+.oranje {
+	background-color:#f39c12;
+}
+
+.groen {
+	background-color:#2ecc71;
+}
