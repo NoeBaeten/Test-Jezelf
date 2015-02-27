@@ -1,13 +1,20 @@
 <div>
+
 	<?php if (isset($_SESSION['cart'])) { ?>
-		<ul id='winkelmand'>
-		<h3>uw winkelmandje: </h3>
+
+		<ul>
+			<h3>Shoppingcart contains: </h3>
+
 			<?php foreach ($_SESSION['cart'] as $cart) { ?>
-				<li><?php echo "Item ID: ";
-				print_r ($cart); ?></li>
+			<li><?php echo $cart; ?></li>
 			<?php } ?>
 		</ul>
 	<?php } else { ?>
-		<h3>Uw winkelmandje is leeg!</h3>
+
+			<h3>Shoppingcart is empty</h3>
+
 	<?php } ?>
+
+	<a href="logout.php">Clear</a>
+
 </div>
