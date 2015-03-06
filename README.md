@@ -22,3 +22,12 @@ Een webwinkel waarbij je van elk product details kan bekijken, en vervolgens in 
 Test Jezelf 5 - Ello login
 --------------------------------------
 Een log-in formulier
+
+# Week 3
+Test Jezelf 1 - Login & sign-up 
+--------------------------------------
+Een simpele login en sign-up met een databank
+
+Test Jezelf 2 - mini-CMS
+--------------------------------------
+Een mini-CMS waarbij je tekstberichten aanmaakt in je databank en die vervolgens uitleest
